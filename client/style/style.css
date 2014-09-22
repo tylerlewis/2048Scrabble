@@ -1,0 +1,45 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.gameBoard {
+  margin-left: 29.1522%;
+  margin-top: 100px;
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+  display: block;
+  float: left;
+  margin-top: 13px;
+  margin-left: 13px;
+  height: 58px;
+  width: 58px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.row1 h3, .row2 h3, .row3 h3, .row4 h3, .row5 h3, .row6 h3, .row7 h3, .row8 h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.tile {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.tile h1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
